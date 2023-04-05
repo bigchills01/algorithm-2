@@ -1,0 +1,12 @@
+Initialize an empty dictionary called distinct_elements to keep track of the distinct elements from both sets.
+Loop through each element in the first set.
+Check if the element is already in the distinct_elements dictionary.
+If the element is not in the dictionary, add it to the dictionary with a value of 1.
+Loop through each element in the second set.
+Check if the element is already in the distinct_elements dictionary.
+If the element is not in the dictionary, add it to the dictionary with a value of 1.
+If the element is already in the dictionary, increment its value by 1.
+Loop through each key-value pair in the distinct_elements dictionary.
+If the value is 1, add the key to a running total of distinct elements.
+Return the running total of distinct elements as the answer.
+This algorithm ensures that each element is counted only once, even if it appears in both sets. The use of a dictionary allows for efficient tracking of whether an element has been seen before, and how many times it has been seen.
